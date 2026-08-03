@@ -1,51 +1,80 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>welcome to html web page</title>
-</head>
-<body>
-    <h1>hello world</h1>
-    <p> welcome to the world of html</p>
-    <h2>Learning html</h2>
-    <h3>Learning python</h3>
-    <h4>Learning css</h4>
-    <h5>Learning js</h5>
-    <h6>Learning api</h6>
-    <p>python is higher language , interpredected , general-purpose programming language. <br> it is human readable and easy to learn</p>
-    <section>
-        <table>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Gender</th>
-            <th>City</th>
-            <tr>
-                <td>Sai Amrutha</td>
-                <td>20</td>
-                <td>Female</td>
-                <td>Vijayawada</td>
-            </tr>
-            <tr>
-                <td>Deepu</td>
-                <td>21</td>
-                <td>Female</td>
-                <td>Hyderbad</td>
-            </tr>
-            <tr>
-                <td>Jayasree</td>
-                <td>21</td>
-                <td>Female</td>
-                <td>Hyderbad</td>
-            </tr>
 
-        </table>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">  
+  <title>Home</title>
+</head>
+
+<body>
+  <header>
+    Home <br />
+    <h1>NRIIT Learning Management</h1>
+    <p>Learn Practice Get Placed</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="courses.html">Courses</a>
+      <a href="trainers.html">Trainers</a>
+      <a href="register.html">Register</a>
+      <a href="login.html">Login</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2 id="welcome">Welcome to NRIIT Learning Management System</h2>
+      <p>
+        The NRIIT Management System helps students explore courses, resgister online, learn from experienced trainers and
+        track their learning journey.
+      </p>
+      <p id="message">Learning never stops</p>
+      <img src="image/banner.jpg" alt="LMS Banner" width="800" class="banner">
+      <br><br>
+      <button onclick="showmessage()">Click Me</button>
+      <button onclick="changeHeading()">Change Heading</button>
+      <button id="btnGreeting">Welcome</button>
     </section>
-    <b>this is for bold text</b><br>
-    <strong>this is also for bold text but wit more imporance</strong><br>
-    <i>this is for italic</i><br>
-    <mark>this hidlight the text</mark><br>
-    <small>this is for small text</small><br>
-    <a href="https://www.google.com">google</a>
+    <section>
+      <h2>Why choose NRIIT?</h2>
+      <ul>
+        <li>Experienced Trainers</li>
+        <li>Industry Projects</li>
+        <li>Placement Assistance</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Popular Courses</h2>
+      <article>
+        <h3>Python FullStack</h3>
+        <p>Learn HTML, CSS, JavScript,SQL and Flask</p>
+      </article>
+    </section>
+  </main>
+  <footer>
+
+    <hr>
+
+    <p>&copy; 2026 NRIIT Learning Management System</p>
+
+    <p>Email: info@nriit.edu</p>
+
+    <p>Phone: +91 9876543210</p>
+
+    <p>Follow Us:</p>
+
+    <a href="#">Facebook</a> |
+
+    <a href="#">Instagram</a> |
+
+    <a href="#">LinkedIn</a>
+
+  </footer>
+  <script src="js/script.js"></script>
+
 </body>
+
 </html>
